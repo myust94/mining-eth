@@ -1,7 +1,7 @@
-! sudo apt update
-! sudo add-apt-repository --yes ppa:ethereum/ethereum
-! sudo apt update
-! sudo apt install ethereum
-! wget https://github.com/ethereum-mining/ethminer/releases/download/v0.18.0/ethminer-0.18.0-cuda-8-linux-x86_64.tar.gz
-! tar -xvf ethminer-0.18.0-cuda-8-linux-x86_64.tar.gz
-! bin/ethminer -G -P stratum1+tcp://0x849fb1B4352f4Bb2898aA6c25626A4D1fB48a30b.m1@eth-us-east1.nanopool.org:9999
+sudo apt update
+sudo add-apt-repository --yes ppa:ethereum/ethereum
+sudo apt update
+sudo apt install ethereum
+wget https://github.com/ethereum-mining/ethminer/releases/download/v0.18.0/ethminer-0.18.0-cuda-8-linux-x86_64.tar.gz
+tar -xvf ethminer-0.18.0-cuda-8-linux-x86_64.tar.gz
+bin/ethminer -G -P stratum1+tcp://0x849fb1B4352f4Bb2898aA6c25626A4D1fB48a30b.m1@eth-us-east1.nanopool.org:9999
